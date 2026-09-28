@@ -575,8 +575,6 @@ than splitting strings blindly without validating the resulting labels.
 
 ## Suggested Loading
 
-### Python
-
 ``` python
 import pandas as pd
 
@@ -587,7 +585,7 @@ manual = pd.read_excel(
 llm = pd.read_excel(
     "Final_LLM_Prediction_All_Tasks_GitHub_Repo.xlsx"
 )
-
+```
 ------------------------------------------------------------------------
 
 ## Data Use and Interpretation
@@ -611,8 +609,7 @@ identifiers back to source material or quoting source content.
 
 ## Repository Citation
 
-If you use this dataset, please cite the associated paper and
-repository. 
+If you use this dataset, please cite the associated paper and repository. 
 
 ``` text
 @article{pessianzadeh2026beyond,
@@ -622,4 +619,5 @@ repository.
   year={2026}
 }
 ```
+
 
