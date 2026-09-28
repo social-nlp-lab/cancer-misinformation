@@ -588,14 +588,6 @@ llm = pd.read_excel(
     "Final_LLM_Prediction_All_Tasks_GitHub_Repo.xlsx"
 )
 
-# Remove effectively blank rows from the LLM file
-llm = llm[llm["id"].notna()].copy()
-```
-
-For reproducibility, preserve the original categorical strings in the
-raw imported data and create normalized versions in separate columns if
-category harmonization is required.
-
 ------------------------------------------------------------------------
 
 ## Data Use and Interpretation
@@ -620,21 +612,14 @@ identifiers back to source material or quoting source content.
 ## Repository Citation
 
 If you use this dataset, please cite the associated paper and
-repository. Add the final paper citation and repository DOI/URL here
-when available:
+repository. 
 
 ``` text
-[Citation to be added]
+@article{pessianzadeh2026beyond,
+  title={Beyond Binary Detection: A Multi-Dimensional Taxonomy of Cancer Misinformation on Reddit},
+  author={Pessianzadeh, Aria and Jamie, Pooriya and Sultana, Naima and Himmelstein, Georgia and Zektser, Yuliya and Ganz, Patricia and Hosseinmardi, Homa and Ghasemian, Amir and Rezapour, Rezvaneh},
+  journal={arXiv preprint arXiv:2607.12383},
+  year={2026}
+}
 ```
 
-------------------------------------------------------------------------
-
-## License
-
-Add the repository's selected data/code license here. The appropriate
-license should be determined by the dataset owners based on the
-source-data terms and intended conditions of reuse.
-
-``` text
-[License information to be added]
-```
