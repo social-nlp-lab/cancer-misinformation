@@ -354,15 +354,10 @@ annotated sheet.
 
 The datasets represent two related annotation layers:
 
-
-  File                                                Annotation source       Main role
-  --------------------------------------------------- ----------------------- -------------------------
-  `Final_Sheet_Annotated_EMNLP_GitHub_Repo.xlsx`      Manual/final            Reference annotated
-                                                      annotations             sample
-
-  `Final_LLM_Prediction_All_Tasks_GitHub_Repo_Updated.xlsx`   LLM predictions         Larger model-labeled
-                                                                              misinformation-positive
-                                                                              dataset
+| File | Annotation Source | Main Role |
+| :--- | :--- | :--- |
+| `Final_Sheet_Annotated_EMNLP_GitHub_Repo.xlsx` | Manual / final annotations | Reference annotated sample |
+| `Final_LLM_Prediction_All_Tasks_GitHub_Repo_Updated.xlsx` | LLM predictions | Larger model-labeled misinformation-positive dataset |
   -----------------------------------------------------------------------------------------------------
 
 The naming convention differs between the files:
