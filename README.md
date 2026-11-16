@@ -354,7 +354,7 @@ annotated sheet.
 
 The datasets represent two related annotation layers:
 
-  -----------------------------------------------------------------------------------------------------
+
   File                                                Annotation source       Main role
   --------------------------------------------------- ----------------------- -------------------------
   `Final_Sheet_Annotated_EMNLP_GitHub_Repo.xlsx`      Manual/final            Reference annotated
